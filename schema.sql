@@ -1,47 +1,50 @@
-CREATE DATABASE video_JC; 
+create schema video_jc;
 
-use video_JC;
+use video_jc;
 
-CREATE TABLE if not exists owner_details(  
-    contentOwner varchar(24) NOT NULL PRIMARY KEY /*Dono do conteúdo*/,
-    timeLinked DATETIME() /*Tempo 'linkado'*/,
-    PRIMARY KEY (contentOwner);
+CREATE TABLE if not exists owner_details (  
+    content_id varchar(24) NOT NULL,
+    timeLinked DATETIME, 
+    PRIMARY KEY(content_id)
 );
 
-CREATE TABLE if not exists channel(
-    channelId VARCHAR(24) NOT NULL PRIMARY KEY 'Primary Key',
-    channelTitle VARCHAR(120) NOT NULL /*Títito do canal*/,
-    destription VARCHAR(500) /*Descrição*/,
-    customUrl VARCHAR(255) /*Url customizada*/,
-    publishedAt VARCHAR(255) NOT NULL /*Publicado em*/,
-    PRIMARY KEY (channelId),
-    FOREIGN KEY (contentOwner);
+CREATE TABLE if not exists Channell (
+    channellid VARCHAR(24) NOT NULL,
+    channelTitle VARCHAR(120) NOT NULL, 
+    description_ VARCHAR(500),
+    content_id varchar(24) NOT NULL,
+    customUrl VARCHAR(255), 
+    publishedAt VARCHAR(255) NOT NULL,
+    PRIMARY KEY (channellid), 
+    FOREIGN KEY (content_id) references owner_details(content_id)
 );
 
-CREATE TABLE if not exists video(  
-    videoid VARCHAR(14) NOT NULL PRIMARY KEY 'Id',
+CREATE TABLE if not exists video (  
+    videoId VARCHAR(14) NOT NULL,
+    channellid VARCHAR(24) NOT NULL,
     link VARCHAR(255),
     title VARCHAR(255),
-    publishedAt DATETIME() /*Publicado em*/,
+    publishedAt DATETIME, 
     description_vid VARCHAR(500),
-    PRIMARY KEY (videoid),
-    FOREIGN KEY (channelId);
+    PRIMARY KEY(videoId),
+    FOREIGN KEY(channellid) references channell(channellid)
 );
 
 CREATE TABLE if not exists video_statistics (
-    viewCount int(255) /*Visualizações*/,
-    likeCount int(255) /*Contagem de like*/,
-    dislikeCount int(255) /*Contagem de dislike*/,
-    favoriteCount int(255) /*Contagem de favoritos*/,
-    commentCount int(255) /*Contagem de comentarios*/,
-    FOREIGN KEY (videoid);
+    viewCount int(255), 
+    likeCount int(255),
+    dislikeCount int(255),  
+    favoriteCount int(255), 
+    commentCount int(255),
+    videoId VARCHAR(14) NOT NULL,
+    FOREIGN KEY(videoId) references video(videoId)
 );
 
 CREATE TABLE if not exists channel_statistics (
-    viewCount int(255) /*Visualizações*/,
-    subscriberCount: int(255) /*Contagem de inscritos*/,
-    hiddenSubscriberCount int(255) /*Contagem de inscritos escondida*/,
-    videoCount int(255) /*Contagem de videos*/,
-    PRIMARY KEY (id),
-    FOREIGN KEY (channelId);
+    viewCount int(255),
+    channellid VARCHAR(24) NOT NULL,
+    subscriberCount int(255),
+    hiddenSubscriberCount int(255),
+    videoCount int(255),
+    FOREIGN KEY(channellid) references channell(channellid)
 );
