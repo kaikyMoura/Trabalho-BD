@@ -12,7 +12,6 @@ CREATE TABLE if not exists Channell (
     channellid VARCHAR(24) NOT NULL,
     channelTitle VARCHAR(120) NOT NULL, 
     description_ VARCHAR(500),
-    content_id varchar(24) NOT NULL,
     customUrl VARCHAR(255), 
     publishedAt VARCHAR(255) NOT NULL,
     PRIMARY KEY (channellid), 
@@ -21,7 +20,6 @@ CREATE TABLE if not exists Channell (
 
 CREATE TABLE if not exists video (  
     videoId VARCHAR(14) NOT NULL,
-    channellid VARCHAR(24) NOT NULL,
     link VARCHAR(255),
     title VARCHAR(255),
     publishedAt DATETIME, 
@@ -31,20 +29,22 @@ CREATE TABLE if not exists video (
 );
 
 CREATE TABLE if not exists video_statistics (
+    id int(11) NOT NULL,
     viewCount int(255), 
     likeCount int(255),
     dislikeCount int(255),  
     favoriteCount int(255), 
     commentCount int(255),
-    videoId VARCHAR(14) NOT NULL,
+    PRIMARY KEY(id),
     FOREIGN KEY(videoId) references video(videoId)
 );
 
 CREATE TABLE if not exists channel_statistics (
+    id int(11) NOT NULL,
     viewCount int(255),
-    channellid VARCHAR(24) NOT NULL,
     subscriberCount int(255),
     hiddenSubscriberCount int(255),
     videoCount int(255),
+    PRIMARY KEY(id),
     FOREIGN KEY(channellid) references channell(channellid)
 );
