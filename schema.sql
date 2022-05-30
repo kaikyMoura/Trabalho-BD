@@ -11,7 +11,8 @@ CREATE TABLE if not exists owner_details (
 CREATE TABLE if not exists Channell (
     channellid VARCHAR(24) NOT NULL,
     channelTitle VARCHAR(120) NOT NULL, 
-    description_ VARCHAR(500),
+    description VARCHAR(500),
+    kind varchar(30),
     content_id varchar(24) NOT NULL,
     customUrl VARCHAR(255), 
     publishedAt VARCHAR(255) NOT NULL,
@@ -25,7 +26,7 @@ CREATE TABLE if not exists video (
     link VARCHAR(255),
     title VARCHAR(255),
     publishedAt DATETIME, 
-    description_vid VARCHAR(500),
+    description VARCHAR(500),
     PRIMARY KEY(videoId),
     FOREIGN KEY(channellid) references channell(channellid)
 );
