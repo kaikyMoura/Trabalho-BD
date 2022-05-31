@@ -54,46 +54,37 @@ insert into owner_details (content_id, timeLinked)
 values (' ', null);
 
 INSERT INTO channell (channellid, channelTitle, kind, content_id,link, publishedAt , description)
-VALUES ('UCe1XGNDeEwAx5xaLGcNPEbQ', 'TV Jornal SBT', 'youtube#channel', ' ', 'https://www.youtube.com/channel/UCe1XGNDeEwAx5xaLGcNPEbQ', '2019-12-26T17:37:45Z', 
+VALUES ('UCe1XGNDeEwAx5xaLGcNPEbQ', 'TV Jornal SBT', 'youtube#channel', ' ', 'https://www.youtube.com/channel/UCe1XGNDeEwAx5xaLGcNPEbQ', '2019-12-26', 
 'No canal da TV Jornal SBT, você confere os principais vídeos de jornalismo e entretenimento da TV Jornal, emissora do Recife ...'),
-('UCOFMoDHG-vKXs-f5vcG7JaQ', 'TV Guararapes Oficial', 'youtube#channel', ' ', 'https://www.youtube.com/channel/UCOFMoDHG-vKXs-f5vcG7JaQ', '2015-03-30T20:52:36Z', 
+('UCOFMoDHG-vKXs-f5vcG7JaQ', 'TV Guararapes Oficial', 'youtube#channel', ' ', 'https://www.youtube.com/channel/UCOFMoDHG-vKXs-f5vcG7JaQ', '2015-03-30', 
 'A TV Clube agora é TV Guararapes - Pernambuco em todas as telas. Sigam nossas redes sociais: Whatsapp: ...'),
-('UCQD_Fq8NZXbHz9LI8Fa1Q9A', 'TV Jornal Interior', 'youtube#channel', ' ', 'https://www.youtube.com/c/TVJornalInterior/featured', '2016-07-');
+('UCQD_Fq8NZXbHz9LI8Fa1Q9A', 'TV Jornal Interior', 'youtube#channel', ' ', 'https://www.youtube.com/c/TVJornalInterior/featured', '2016-11-07', 
+'Conteúdo produzido pela TV Jornal Interior/SBT Caruaru. Notícias de Pernambuco, jornalismo policial, futebol e entretenimento como Programa Cotidiano, Eu Fui Nesta Viagem, Programa Sobretudo e muito mais.'),
+('UCP391YRAjSOdM_bwievgaZA', 'Jovem Pan News', 'youtube#channel', ' ', 'https://www.youtube.com/c/jovempannews', '2011-12-01', 
+'A maior rede de rádio do Brasil está também no Youtube com a presença de Thiago Uberreich, Rodrigo Constantino, Augusto Nunes e todo o time de comentaristas Jovem Pan.');
 
-
-INSERT INTO video (videoId, channellid, link, kind, title, publishedAt, description_vid)
+INSERT INTO video (videoId, channellid, link, kind, title, publishedAt, description)
 VALUES ('4opM5Nt85yg', 'UCe1XGNDeEwAx5xaLGcNPEbQ', 'https://www.youtube.com/watch?v=4opM5Nt85yg', 'youtube#video', 
-'TV Jornal estreia novo estúdio e traz novidades na programação', '2021-09-13T12:57:59Z', 
+'TV Jornal estreia novo estúdio e traz novidades na programação', '2021-09-13', 
 'A TV Jornal estreou nesta segunda-feira (13), o novo estúdio de Jornalismo da emissora trazendo novidades na programação.'),
-('VvCz9dh2_ds', 'UCAQN1P1htBCZKvj2vcFCcmw', 'https://www.youtube.com/watch?v=VvCz9dh2_ds', 'youtube#video', 
-'GLOBO AO VIVO HD 25/05/2022 QUANTO MAIS VIDA MELHOR - JORNAL NACIONAL - PANTANAL', '2022-05-24T20:10:52Z',
-'GLOBO AO VIVO, GLOBO AO VIVO AGORA, GLOBO AO VIVO HD ,GLOBO HOJE, GLOBO ONLINE, REDE GLOBO, globo ao vivo ...'),
 ('gTHSgcV4cPs', 'UCe1XGNDeEwAx5xaLGcNPEbQ', 'https://www.youtube.com/watch?v=gTHSgcV4cPs', 'youtube#video', 
-'#AOVIVO | Pré-jogo entre Sport x Fortaleza pelo primeiro jogo da final da Copa do Nordeste 2022', '2022-04-01T00:17:36Z', 
+'#AOVIVO | Pré-jogo entre Sport x Fortaleza pelo primeiro jogo da final da Copa do Nordeste 2022', '2022-04-01', 
 'Acompanhe todos os detalhes do pré-jogo entre Sport x Fortaleza, pelo primeiro jogo da final da Copa do Nordeste 2022, com ...'),
 ('TpphwOkx15M', 'UCe1XGNDeEwAx5xaLGcNPEbQ', 'https://www.youtube.com/watch?v=TpphwOkx15M', 'youtube#video', 
-'#AOVIVO | Pré-jogo entre Sport x CRB pela Copa do Nordeste 2022', '2022-03-27T21:35:18Z', 
+'#AOVIVO | Pré-jogo entre Sport x CRB pela Copa do Nordeste 2022', '2022-03-27', 
 'Acompanhe todos os detalhes do pré-jogo entre Sport x CRB, pela semifinal da Copa do Nordeste 2022, com Aroldo Costa.'),
 ('-mpFDHfb9pY', 'UCQD_Fq8NZXbHz9LI8Fa1Q9A', 'https://www.youtube.com/watch?v=-mpFDHfb9pY', 'youtube#video', 
-'Transmissão ao vivo de TV Jornal Interior', '2021-04-08T13:35:20Z', ' '),
+'Transmissão ao vivo de TV Jornal Interior', '2021-04-08', ' '),
 ('twPEPnitz6U', 'UCP391YRAjSOdM_bwievgaZA', 'https://www.youtube.com/watch?v=twPEPnitz6U', 'youtube#video', 
-'JORNAL DA MANHÃ - 28/05/2022', '2022-05-28T14:47:20Z', 
+'JORNAL DA MANHÃ - 28/05/2022', '2022-05-28', 
 'Baixe o app Panflix: https://www.panflix.com.br/ Baixe o AppNews Jovem Pan na Google Play store https://bit.ly/2KRm8OJ Baixe o ...'),
-('gTHSgcV4cPs', 'UCe1XGNDeEwAx5xaLGcNPEbQ', 'https://www.youtube.com/watch?v=gTHSgcV4cPs', 'youtube#video', 
-'#AOVIVO | Pré-jogo entre Sport x Fortaleza pelo primeiro jogo da final da Copa do Nordeste 2022', '2022-04-01T00:17:36Z', 
-'Acompanhe todos os detalhes do pré-jogo entre Sport x Fortaleza, pelo primeiro jogo da final da Copa do Nordeste 2022, com ...'),
-('-mpFDHfb9pY', 'UCQD_Fq8NZXbHz9LI8Fa1Q9A', 'https://www.youtube.com/watch?v=-mpFDHfb9pY', 'youtube#video', 
-'Transmissão ao vivo de TV Jornal Interior', '2021-04-08T13:35:20Z', ' '),
 ('Ht5DL01JCLI', 'UCOFMoDHG-vKXs-f5vcG7JaQ', 'https://www.youtube.com/watch?v=Ht5DL01JCLI', 'youtube#video', 
-'Balanço Geral Manhã na íntegra - 25/05/2025', '2022-05-25T11:41:42Z', 
+'Balanço Geral Manhã na íntegra - 25/05/2025', '2022-05-25', 
 'Whatsapp: encurtador.com.br/hlHIX Facebook: facebook.com/tvguararapesoficial Instagram: Instagram.com/tvguararapesoficial ...'),
 ('6qLnAZ76AzI', 'UCOFMoDHG-vKXs-f5vcG7JaQ', 'https://www.youtube.com/watch?v=6qLnAZ76AzI', 'youtube#video', 
-'Tudo é Notícia -  AO VIVO', '2022-05-28T17:13:07Z', 'Tudo é Notícia - AO VIVO #tudoénotícia.'),
-('B8zhql6aA08', 'UCoa-D_VfMkFrCYodrOC9-mA', 'https://www.youtube.com/watch?v=B8zhql6aA08', 'youtube#video', 
-'JORNAL DA BAND - 28/05/2022', '2022-05-28T23:41:28Z', 
-'INSCREVA-SE NO CANAL E NÃO PERCA NENHUMA NOTÍCIA DO BRASIL E DO MUNDO. Siga as nossas redes sociais: ...'),
+'Tudo é Notícia -  AO VIVO', '2022-05-28', 'Tudo é Notícia - AO VIVO #tudoénotícia.'),
 ('qyBsgDXDOKs', 'UCP4OAt3pxqIhh_DLy-SK20g', 'https://www.youtube.com/watch?v=qyBsgDXDOKs', 'youtube#video', 
-'Bronca Pesada com Cardinot (Trechos) - TV Jornal Digital - Recife/PE', '2011-07-09T21:31:08Z', 
+'Bronca Pesada com Cardinot (Trechos) - TV Jornal Digital - Recife/PE', '2011-07-09', 
 'A pedidos: Trechos do programa Bronca Pesada apresentado pelo Cardinot. Programa exibido em 7 de Julho de 2011. TV Jornal ...');
 
 INSERT INTO video_statistics (viewCount, likeCount, dislikeCount, commentCount, videoId)
