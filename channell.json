@@ -1,0 +1,31 @@
+[
+{
+    "channelId": "UCe1XGNDeEwAx5xaLGcNPEbQ",
+    "channelTitle": "TV Jornal SBT",  
+    "kind": "youtube#channel",
+    "content_id": " ",
+    "link": "https://www.youtube.com/channel/UCe1XGNDeEwAx5xaLGcNPEbQ",
+    "publishedAt": "2019-12-26T17:37:45Z",
+    "title": "TV Jornal SBT",
+    "description": "No canal da TV Jornal SBT, você confere os principais vídeos de jornalismo e entretenimento da TV Jornal, emissora do Recife ..."        
+ },
+ {
+    "channelId": "UCOFMoDHG-vKXs-f5vcG7JaQ",
+    "channelTitle": "TV Guararapes Oficial",
+    "kind": "youtube#channel",
+    "content_id": " ",
+    "link": "https://www.youtube.com/channel/UCOFMoDHG-vKXs-f5vcG7JaQ",
+    "publishedAt": "2015-03-30T20:52:36Z",
+    "title": "TV Guararapes Oficial",
+    "description": "A TV Clube agora é TV Guararapes - Pernambuco em todas as telas. Sigam nossas redes sociais: Whatsapp: ..."
+  },
+  {
+    "channelId": "UCe1XGNDeEwAx5xaLGcNPEbQ",
+    "channelTitle": "TV Jornal SBT",
+    "kind": "youtube#channel",
+    "link": "https://www.youtube.com/channel/UCe1XGNDeEwAx5xaLGcNPEbQ",
+    "publishedAt": "2019-12-26T17:37:45Z",
+    "title": "TV Jornal SBT",
+    "description": "No canal da TV Jornal SBT, você confere os principais vídeos de jornalismo e entretenimento da TV Jornal, emissora do Recife ..."
+  }
+]
