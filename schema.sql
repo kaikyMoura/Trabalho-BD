@@ -4,7 +4,7 @@ use video_jc;
 
 CREATE TABLE if not exists owner_details (  
     content_id varchar(24) NOT NULL,
-    timeLinked DATETIME, 
+    timeLinked DATE, 
     PRIMARY KEY(content_id)
 );
 
@@ -26,7 +26,7 @@ CREATE TABLE if not exists video (
     link VARCHAR(255),
     kind varchar(30),
     title VARCHAR(255),
-    publishedAt DATETIME, 
+    publishedAt DATE, 
     description VARCHAR(500),
     PRIMARY KEY(videoId),
     FOREIGN KEY(channellid) references channell(channellid)
