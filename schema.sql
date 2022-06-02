@@ -95,11 +95,7 @@ VALUES  ('17.048.470', "UCe1XGNDeEwAx5xaLGcNPEbQ", '110.000' , '6.849'),
                 (' ', ' ', ' ' , ' '),
                 ('1.548.985.663', "UCoa-D_VfMkFrCYodrOC9-mA", '3.75000' , '79.690'),
                 ('27.493.627', "Leonardo26PE", '58.2000' , '599');
-
-		('98.655.056', "UCOFMoDHG-vKXs-f5vcG7JaQ", '456.000' , '11.334'),
-		('2.001.756.622', "UCP391YRAjSOdM_bwievgaZA", '5.0400.00' , '80.958'),
-		('20.162.983', "UCQD_Fq8NZXbHz9LI8Fa1Q9A", '103.000' , '4.469');
-    
+		        
 /*Filtros*/
 SELECT video.title, video.publishedAt, video_statistics.viewCount, channell.channelTitle, channel_statistics.subscriberCount, channel_statistics.videoCount, channel_statistics.viewCount
 FROM video_statistics JOIN video JOIN channell JOIN channel_statistics
