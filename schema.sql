@@ -55,13 +55,13 @@ values (' ', null);
 
 INSERT INTO channell (channellid, channelTitle, kind, content_id,link, publishedAt , description)
 VALUES   ('UCe1XGNDeEwAx5xaLGcNPEbQ', 'TV Jornal SBT', 'youtube#channel', ' ', 'https://www.youtube.com/channel/UCe1XGNDeEwAx5xaLGcNPEbQ', '2019-12-26', 
-                 'No canal da TV Jornal SBT, você confere os principais vídeos de jornalismo e entretenimento da TV Jornal, emissora do Recife ...'),
-                ('UCOFMoDHG-vKXs-f5vcG7JaQ', 'TV Guararapes Oficial', 'youtube#channel', ' ', 'https://www.youtube.com/channel/UCOFMoDHG-vKXs-f5vcG7JaQ', '2015-03-30', 
-                 'A TV Clube agora é TV Guararapes - Pernambuco em todas as telas. Sigam nossas redes sociais: Whatsapp: ...'),
-                ('jovempannews', 'Jovem Pan News', 'youtube#channel', ' ', 'https://www.youtube.com/c/jovempannews', '2011-12-01', 
-                 'A maior rede de rádio do Brasil está também no Youtube com a presença de Thiago Uberreich, Rodrigo Constantino, Augusto Nunes e todo o time de comentaristas Jovem Pan.'),
-                ('UCQD_Fq8NZXbHz9LI8Fa1Q9A', 'TV Jornal Interior', 'youtube#channel', ' ', 'https://www.youtube.com/c/TVJornalInterior/featured', '2016-11-07', 
-                 'Conteúdo produzido pela TV Jornal Interior/SBT Caruaru. Notícias de Pernambuco, jornalismo policial, futebol e entretenimento como Programa Cotidiano, Eu Fui Nesta Viagem, Programa Sobretudo e muito mais.');
+          'No canal da TV Jornal SBT, você confere os principais vídeos de jornalismo e entretenimento da TV Jornal, emissora do Recife ...'),
+         ('UCOFMoDHG-vKXs-f5vcG7JaQ', 'TV Guararapes Oficial', 'youtube#channel', ' ', 'https://www.youtube.com/channel/UCOFMoDHG-vKXs-f5vcG7JaQ', '2015-03-30', 
+          'A TV Clube agora é TV Guararapes - Pernambuco em todas as telas. Sigam nossas redes sociais: Whatsapp: ...'),
+         ('jovempannews', 'Jovem Pan News', 'youtube#channel', ' ', 'https://www.youtube.com/c/jovempannews', '2011-12-01', 
+          'A maior rede de rádio do Brasil está também no Youtube com a presença de Thiago Uberreich, Rodrigo Constantino, Augusto Nunes e todo o time de comentaristas Jovem Pan.'),
+         ('UCQD_Fq8NZXbHz9LI8Fa1Q9A', 'TV Jornal Interior', 'youtube#channel', ' ', 'https://www.youtube.com/c/TVJornalInterior/featured', '2016-11-07', 
+          'Conteúdo produzido pela TV Jornal Interior/SBT Caruaru. Notícias de Pernambuco, jornalismo policial, futebol e entretenimento como Programa Cotidiano, Eu Fui Nesta Viagem, Programa Sobretudo e muito mais.');
 
 INSERT INTO video (videoId, channellid, link, kind, title, publishedAt, description)
 VALUES  ('-mpFDHfb9pY', 'UCQD_Fq8NZXbHz9LI8Fa1Q9A', 'https://www.youtube.com/watch?v=-mpFDHfb9pY', 'youtube#video', 'Transmissão ao vivo de TV Jornal Interior', '2021-04-08', ' '),	 
@@ -76,25 +76,25 @@ VALUES  ('-mpFDHfb9pY', 'UCQD_Fq8NZXbHz9LI8Fa1Q9A', 'https://www.youtube.com/wat
 
 INSERT INTO video_statistics (viewCount, likeCount, dislikeCount, commentCount, videoId)
 VALUES  ('16.374', '362', ' ' , '29', "-mpFDHfb9pY" ),
-		        ('4.586', '187', ' ' , '13', "4opM5Nt85yg" ),
-                ('35.417', '1.3000', ' ' , '41', "6qLnAZ76AzI" ),
-		        ('21.607', '422', ' ' , '5', "gTHSgcV4cPs" ),
-                ('30.114', '978', ' ' , '20', "Ht5DL01JCLI" ),
-		        ('24.512', '582', ' ' , '8', "TpphwOkx15M" ),
-		        ('21.607', '422', ' ' , '5', "twPEPnitz6U" ),
-                ('134.091', ' ', ' ' , '39', "B8zhql6aA08" ),
-		        ('1.257.440', '8.000', ' ' , '327', "qyBsgDXDOKs" );
+	('4.586', '187', ' ' , '13', "4opM5Nt85yg" ),
+        ('35.417', '1.3000', ' ' , '41', "6qLnAZ76AzI" ),
+	('21.607', '422', ' ' , '5', "gTHSgcV4cPs" ),
+        ('30.114', '978', ' ' , '20', "Ht5DL01JCLI" ),
+	('24.512', '582', ' ' , '8', "TpphwOkx15M" ),
+	('21.607', '422', ' ' , '5', "twPEPnitz6U" ),
+        ('134.091', ' ', ' ' , '39', "B8zhql6aA08" ),
+	('1.257.440', '8.000', ' ' , '327', "qyBsgDXDOKs" );
         
 INSERT INTO channel_statistics (viewCount, channellid, subscriberCount, videoCount)
 VALUES  ('17.048.470', "UCe1XGNDeEwAx5xaLGcNPEbQ", '110.000' , '6.849'),
-		        ('98.655.056', "UCOFMoDHG-vKXs-f5vcG7JaQ", '456.000' , '11.334'),
-		        ('2.001.756.622', "UCP391YRAjSOdM_bwievgaZA", '5.0400.00' , '80.958'),
-		        ('20.162.983', "UCQD_Fq8NZXbHz9LI8Fa1Q9A", '103.000' , '4.469');
-                ('0', "UCAQN1P1htBCZKvj2vcFCcmw", '82.2000' , '0'),
-                ('296.392', "UCa7utqA7qkZxm6RN2tM4ukg", '5.2000' , '393'),
-                (' ', ' ', ' ' , ' '),
-                ('1.548.985.663', "UCoa-D_VfMkFrCYodrOC9-mA", '3.75000' , '79.690'),
-                ('27.493.627', "Leonardo26PE", '58.2000' , '599');
+	('98.655.056', "UCOFMoDHG-vKXs-f5vcG7JaQ", '456.000' , '11.334'),
+	('2.001.756.622', "UCP391YRAjSOdM_bwievgaZA", '5.0400.00' , '80.958'),
+	('20.162.983', "UCQD_Fq8NZXbHz9LI8Fa1Q9A", '103.000' , '4.469');
+        ('0', "UCAQN1P1htBCZKvj2vcFCcmw", '82.2000' , '0'),
+        ('296.392', "UCa7utqA7qkZxm6RN2tM4ukg", '5.2000' , '393'),
+        (' ', ' ', ' ' , ' '),
+        ('1.548.985.663', "UCoa-D_VfMkFrCYodrOC9-mA", '3.75000' , '79.690'),
+        ('27.493.627', "Leonardo26PE", '58.2000' , '599');
 		        
 /*Filtros*/
 SELECT video.title, video.publishedAt, video_statistics.viewCount, channell.channelTitle, channel_statistics.subscriberCount, channel_statistics.videoCount, channel_statistics.viewCount
