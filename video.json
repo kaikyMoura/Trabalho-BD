@@ -10,13 +10,13 @@
     "description": " "
   },
   {
-      "videoId": "4opM5Nt85yg",
-      "channelId": "UCe1XGNDeEwAx5xaLGcNPEbQ",
-      "link": "https://www.youtube.com/watch?v=4opM5Nt85yg",
-      "kind": "youtube#video",
-      "title": "TV Jornal estreia novo estúdio e traz novidades na programação",
-      "publishedAt": "2021-09-13T12:57:59Z",
-      "description": "A TV Jornal estreou nesta segunda-feira (13), o novo estúdio de Jornalismo da emissora trazendo novidades na programação."
+    "videoId": "4opM5Nt85yg",
+    "channelId": "UCe1XGNDeEwAx5xaLGcNPEbQ",
+    "link": "https://www.youtube.com/watch?v=4opM5Nt85yg",
+    "kind": "youtube#video",
+    "title": "TV Jornal estreia novo estúdio e traz novidades na programação",
+    "publishedAt": "2021-09-13T12:57:59Z",
+    "description": "A TV Jornal estreou nesta segunda-feira (13), o novo estúdio de Jornalismo da emissora trazendo novidades na programação."
   },
   {
     "videoId": "6qLnAZ76AzI",
@@ -64,30 +64,30 @@
     "description": "Baixe o app Panflix: https://www.panflix.com.br/ Baixe o AppNews Jovem Pan na Google Play store https://bit.ly/2KRm8OJ Baixe o ..."
   },
   {
-      "videoId": "VvCz9dh2_ds",
-      "channelId": "UCAQN1P1htBCZKvj2vcFCcmw",
-      "link": "https://www.youtube.com/watch?v=VvCz9dh2_ds",
-      "kind": "youtube#video",
-      "title": "GLOBO AO VIVO HD 25/05/2022 QUANTO MAIS VIDA MELHOR - JORNAL NACIONAL - PANTANAL",
-      "publishedAt": "2022-05-24T20:10:52Z",
-      "description": "GLOBO AO VIVO, GLOBO AO VIVO AGORA, GLOBO AO VIVO HD ,GLOBO HOJE, GLOBO ONLINE, REDE GLOBO, globo ao vivo ..."
-    },
-    {
-      "videoId": "B8zhql6aA08",
-      "channelId": "UCoa-D_VfMkFrCYodrOC9-mA",
-      "link": "https://www.youtube.com/watch?v=B8zhql6aA08",
-      "kind": "youtube#video",
-      "title": "JORNAL DA BAND - 28/05/2022",
-      "publishedAt": "2022-05-28T23:41:28Z",
-      "description": "INSCREVA-SE NO CANAL E NÃO PERCA NENHUMA NOTÍCIA DO BRASIL E DO MUNDO. Siga as nossas redes sociais: ..."
-    },
-    {
-      "videoId": "qyBsgDXDOKs",
-      "channelId": "UCP4OAt3pxqIhh_DLy-SK20g",
-      "link": "https://www.youtube.com/watch?v=qyBsgDXDOKs",
-      "kind": "youtube#video",
-      "title": "Bronca Pesada com Cardinot (Trechos) - TV Jornal Digital - Recife/PE",
-      "publishedAt": "2011-07-09T21:31:08Z",
-      "description": "A pedidos: Trechos do programa Bronca Pesada apresentado pelo Cardinot. Programa exibido em 7 de Julho de 2011. TV Jornal ..."
-    }
+    "videoId": "VvCz9dh2_ds",
+    "channelId": "UCAQN1P1htBCZKvj2vcFCcmw",
+    "link": "https://www.youtube.com/watch?v=VvCz9dh2_ds",
+    "kind": "youtube#video",
+    "title": "GLOBO AO VIVO HD 25/05/2022 QUANTO MAIS VIDA MELHOR - JORNAL NACIONAL - PANTANAL",
+    "publishedAt": "2022-05-24T20:10:52Z",
+    "description": "GLOBO AO VIVO, GLOBO AO VIVO AGORA, GLOBO AO VIVO HD ,GLOBO HOJE, GLOBO ONLINE, REDE GLOBO, globo ao vivo ..."
+  },
+  {
+    "videoId": "B8zhql6aA08",
+    "channelId": "UCoa-D_VfMkFrCYodrOC9-mA",
+    "link": "https://www.youtube.com/watch?v=B8zhql6aA08",
+    "kind": "youtube#video",
+    "title": "JORNAL DA BAND - 28/05/2022",
+    "publishedAt": "2022-05-28T23:41:28Z",
+    "description": "INSCREVA-SE NO CANAL E NÃO PERCA NENHUMA NOTÍCIA DO BRASIL E DO MUNDO. Siga as nossas redes sociais: ..."
+   },
+   {
+    "videoId": "qyBsgDXDOKs",
+    "channelId": "UCP4OAt3pxqIhh_DLy-SK20g",
+    "link": "https://www.youtube.com/watch?v=qyBsgDXDOKs",
+    "kind": "youtube#video",
+    "title": "Bronca Pesada com Cardinot (Trechos) - TV Jornal Digital - Recife/PE",
+    "publishedAt": "2011-07-09T21:31:08Z",
+    "description": "A pedidos: Trechos do programa Bronca Pesada apresentado pelo Cardinot. Programa exibido em 7 de Julho de 2011. TV Jornal ..."
+   }
 ]
