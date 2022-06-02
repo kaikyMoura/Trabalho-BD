@@ -5,7 +5,7 @@
     "kind": "youtube#channel",
     "content_id": " ",
     "link": "https://www.youtube.com/channel/UCe1XGNDeEwAx5xaLGcNPEbQ",
-    "publishedAt": "2019-12-26T17:37:45Z",
+    "publishedAt": "2019-12-26",
     "description": "No canal da TV Jornal SBT, você confere os principais vídeos de jornalismo e entretenimento da TV Jornal, emissora do Recife ..."        
  },
  {
@@ -14,16 +14,25 @@
     "kind": "youtube#channel",
     "content_id": " ",
     "link": "https://www.youtube.com/channel/UCOFMoDHG-vKXs-f5vcG7JaQ",
-    "publishedAt": "2015-03-30T20:52:36Z",
+    "publishedAt": "2015-03-30",
     "description": "A TV Clube agora é TV Guararapes - Pernambuco em todas as telas. Sigam nossas redes sociais: Whatsapp: ..."
   },
   {
-    "channelId": "UCe1XGNDeEwAx5xaLGcNPEbQ",
-    "channelTitle": "TV Jornal SBT",
+    "channelId": "UCQD_Fq8NZXbHz9LI8Fa1Q9A",
+    "channelTitle": "TV Jornal Interior",
     "kind": "youtube#channel",
     "content_id": " ",
-    "link": "https://www.youtube.com/channel/UCe1XGNDeEwAx5xaLGcNPEbQ",
-    "publishedAt": "2019-12-26T17:37:45Z",
-    "description": "No canal da TV Jornal SBT, você confere os principais vídeos de jornalismo e entretenimento da TV Jornal, emissora do Recife ..."
+    "link": "https://www.youtube.com/c/TVJornalInterior/featured",
+    "publishedAt": "2016-11-07",
+    "description": "Conteúdo produzido pela TV Jornal Interior/SBT Caruaru. Notícias de Pernambuco, jornalismo policial, futebol e entretenimento como Programa Cotidiano, Eu Fui Nesta Viagem, Programa Sobretudo e muito mais."
+  },
+  {
+    "channelId": "UCP391YRAjSOdM_bwievgaZA",
+    "channelTitle": "Jovem Pan News",
+    "kind": "youtube#channel",
+    "content_id": " ",
+    "link": "https://www.youtube.com/c/jovempannews",
+    "publishedAt": "2011-12-01",
+    "description": "A maior rede de rádio do Brasil está também no Youtube com a presença de Thiago Uberreich, Rodrigo Constantino, Augusto Nunes e todo o time de comentaristas Jovem Pan."
   }
 ]
