@@ -65,37 +65,39 @@ VALUES   ('UCe1XGNDeEwAx5xaLGcNPEbQ', 'TV Jornal SBT', 'youtube#channel', ' ', '
 
 INSERT INTO video (videoId, channellid, link, kind, title, publishedAt, description)
 VALUES  ('-mpFDHfb9pY', 'UCQD_Fq8NZXbHz9LI8Fa1Q9A', 'https://www.youtube.com/watch?v=-mpFDHfb9pY', 'youtube#video', 'Transmissão ao vivo de TV Jornal Interior', '2021-04-08', ' '),	 
-                ('4opM5Nt85yg', 'UCe1XGNDeEwAx5xaLGcNPEbQ', 'https://www.youtube.com/watch?v=4opM5Nt85yg', 'youtube#video', 'TV Jornal estreia novo estúdio e traz novidades na programação', '2021-09-13', 'A TV Jornal estreou nesta segunda-feira (13), o novo estúdio de Jornalismo da emissora trazendo novidades na programação.'),
-                ('6qLnAZ76AzI', 'UCOFMoDHG-vKXs-f5vcG7JaQ', 'https://www.youtube.com/watch?v=6qLnAZ76AzI', 'youtube#video', 'Tudo é Notícia -  AO VIVO', '2022-05-28', 'Tudo é Notícia - AO VIVO #tudoénotícia.'),
-                ('gTHSgcV4cPs', 'UCe1XGNDeEwAx5xaLGcNPEbQ', 'https://www.youtube.com/watch?v=gTHSgcV4cPs', 'youtube#video', '#AOVIVO | Pré-jogo entre Sport x Fortaleza pelo primeiro jogo da final da Copa do Nordeste 2022', '2022-04-01', 'Acompanhe todos os detalhes do pré-jogo entre Sport x Fortaleza, pelo primeiro jogo da final da Copa do Nordeste 2022, com ...'),
-                ('Ht5DL01JCLI', 'UCOFMoDHG-vKXs-f5vcG7JaQ', 'https://www.youtube.com/watch?v=Ht5DL01JCLI', 'youtube#video', 'Balanço Geral Manhã na íntegra - 25/05/2025', '2022-05-25', 'Whatsapp: encurtador.com.br/hlHIX Facebook: facebook.com/tvguararapesoficial Instagram: Instagram.com/tvguararapesoficial ...'),
-                ('TpphwOkx15M', 'UCe1XGNDeEwAx5xaLGcNPEbQ', 'https://www.youtube.com/watch?v=TpphwOkx15M', 'youtube#video', '#AOVIVO | Pré-jogo entre Sport x CRB pela Copa do Nordeste 2022', '2022-03-27', 'Acompanhe todos os detalhes do pré-jogo entre Sport x CRB, pela semifinal da Copa do Nordeste 2022, com Aroldo Costa.'),
-                ('twPEPnitz6U', 'UCP391YRAjSOdM_bwievgaZA', 'https://www.youtube.com/watch?v=twPEPnitz6U', 'youtube#video', 'JORNAL DA MANHÃ - 28/05/2022', '2022-05-28', 'Baixe o app Panflix: https://www.panflix.com.br/ Baixe o AppNews Jovem Pan na Google Play store https://bit.ly/2KRm8OJ Baixe o ...'),
-                ('B8zhql6aA08', 'UCoa-D_VfMkFrCYodrOC9-mA', 'https://www.youtube.com/watch?v=B8zhql6aA08', 'youtube#video', 'JORNAL DA MANHÃ - 28/05/2022', '2022-05-28', 'INSCREVA-SE NO CANAL E NÃO PERCA NENHUMA NOTÍCIA DO BRASIL E DO MUNDO. Siga as nossas redes sociais: ...'),
-                ('qyBsgDXDOKs', 'UCP4OAt3pxqIhh_DLy-SK20g', 'https://www.youtube.com/watch?v=qyBsgDXDOKs', 'youtube#video', 'Bronca Pesada com Cardinot (Trechos) - TV Jornal Digital - Recife/PE', '2011-07-09', 'A pedidos: Trechos do programa Bronca Pesada apresentado pelo Cardinot. Programa exibido em 7 de Julho de 2011. TV Jornal ...');
+        ('4opM5Nt85yg', 'UCe1XGNDeEwAx5xaLGcNPEbQ', 'https://www.youtube.com/watch?v=4opM5Nt85yg', 'youtube#video', 'TV Jornal estreia novo estúdio e traz novidades na programação', '2021-09-13', 'A TV Jornal estreou nesta segunda-feira (13), o novo estúdio de Jornalismo da emissora trazendo novidades na programação.'),
+        ('6qLnAZ76AzI', 'UCOFMoDHG-vKXs-f5vcG7JaQ', 'https://www.youtube.com/watch?v=6qLnAZ76AzI', 'youtube#video', 'Tudo é Notícia -  AO VIVO', '2022-05-28', 'Tudo é Notícia - AO VIVO #tudoénotícia.'),
+        ('gTHSgcV4cPs', 'UCe1XGNDeEwAx5xaLGcNPEbQ', 'https://www.youtube.com/watch?v=gTHSgcV4cPs', 'youtube#video', '#AOVIVO | Pré-jogo entre Sport x Fortaleza pelo primeiro jogo da final da Copa do Nordeste 2022', '2022-04-01', 'Acompanhe todos os detalhes do pré-jogo entre Sport x Fortaleza, pelo primeiro jogo da final da Copa do Nordeste 2022, com ...'),
+        ('Ht5DL01JCLI', 'UCOFMoDHG-vKXs-f5vcG7JaQ', 'https://www.youtube.com/watch?v=Ht5DL01JCLI', 'youtube#video', 'Balanço Geral Manhã na íntegra - 25/05/2025', '2022-05-25', 'Whatsapp: encurtador.com.br/hlHIX Facebook: facebook.com/tvguararapesoficial Instagram: Instagram.com/tvguararapesoficial ...'),
+        ('TpphwOkx15M', 'UCe1XGNDeEwAx5xaLGcNPEbQ', 'https://www.youtube.com/watch?v=TpphwOkx15M', 'youtube#video', '#AOVIVO | Pré-jogo entre Sport x CRB pela Copa do Nordeste 2022', '2022-03-27', 'Acompanhe todos os detalhes do pré-jogo entre Sport x CRB, pela semifinal da Copa do Nordeste 2022, com Aroldo Costa.'),
+        ('twPEPnitz6U', 'UCP391YRAjSOdM_bwievgaZA', 'https://www.youtube.com/watch?v=twPEPnitz6U', 'youtube#video', 'JORNAL DA MANHÃ - 28/05/2022', '2022-05-28', 'Baixe o app Panflix: https://www.panflix.com.br/ Baixe o AppNews Jovem Pan na Google Play store https://bit.ly/2KRm8OJ Baixe o ...'),
+        ('B8zhql6aA08', 'UCoa-D_VfMkFrCYodrOC9-mA', 'https://www.youtube.com/watch?v=B8zhql6aA08', 'youtube#video', 'JORNAL DA MANHÃ - 28/05/2022', '2022-05-28', 'INSCREVA-SE NO CANAL E NÃO PERCA NENHUMA NOTÍCIA DO BRASIL E DO MUNDO. Siga as nossas redes sociais: ...'),
+        ('qyBsgDXDOKs', 'UCP4OAt3pxqIhh_DLy-SK20g', 'https://www.youtube.com/watch?v=qyBsgDXDOKs', 'youtube#video', 'Bronca Pesada com Cardinot (Trechos) - TV Jornal Digital - Recife/PE', '2011-07-09', 'A pedidos: Trechos do programa Bronca Pesada apresentado pelo Cardinot. Programa exibido em 7 de Julho de 2011. TV Jornal ...');
 
 INSERT INTO video_statistics (viewCount, likeCount, dislikeCount, commentCount, videoId)
 VALUES  ('16.374', '362', ' ' , '29', "-mpFDHfb9pY" ),
-	('4.586', '187', ' ' , '13', "4opM5Nt85yg" ),
+	      ('4.586', '187', ' ' , '13', "4opM5Nt85yg" ),
         ('35.417', '1.3000', ' ' , '41', "6qLnAZ76AzI" ),
-	('21.607', '422', ' ' , '5', "gTHSgcV4cPs" ),
+	      ('21.607', '422', ' ' , '5', "gTHSgcV4cPs" ),
         ('30.114', '978', ' ' , '20', "Ht5DL01JCLI" ),
-	('24.512', '582', ' ' , '8', "TpphwOkx15M" ),
-	('21.607', '422', ' ' , '5', "twPEPnitz6U" ),
+	      ('24.512', '582', ' ' , '8', "TpphwOkx15M" ),
+	      ('21.607', '422', ' ' , '5', "twPEPnitz6U" ),
         ('134.091', ' ', ' ' , '39', "B8zhql6aA08" ),
-	('1.257.440', '8.000', ' ' , '327', "qyBsgDXDOKs" );
+	      ('1.257.440', '8.000', ' ' , '327', "qyBsgDXDOKs" );
         
 INSERT INTO channel_statistics (viewCount, channellid, subscriberCount, videoCount)
 VALUES  ('17.048.470', "UCe1XGNDeEwAx5xaLGcNPEbQ", '110.000' , '6.849'),
 	('98.655.056', "UCOFMoDHG-vKXs-f5vcG7JaQ", '456.000' , '11.334'),
 	('2.001.756.622', "UCP391YRAjSOdM_bwievgaZA", '5.0400.00' , '80.958'),
 	('20.162.983', "UCQD_Fq8NZXbHz9LI8Fa1Q9A", '103.000' , '4.469');
-        ('0', "UCAQN1P1htBCZKvj2vcFCcmw", '82.2000' , '0'),
-        ('296.392', "UCa7utqA7qkZxm6RN2tM4ukg", '5.2000' , '393'),
-        (' ', ' ', ' ' , ' '),
-        ('1.548.985.663', "UCoa-D_VfMkFrCYodrOC9-mA", '3.75000' , '79.690'),
-        ('27.493.627', "Leonardo26PE", '58.2000' , '599');
-		        
+  ('0', "UCAQN1P1htBCZKvj2vcFCcmw", '82.2000' , '0'),
+  ('296.392', "UCa7utqA7qkZxm6RN2tM4ukg", '5.2000' , '393'),
+  (' ', ' ', ' ' , ' '),
+  ('1.548.985.663', "UCoa-D_VfMkFrCYodrOC9-mA", '3.75000' , '79.690'),
+  ('27.493.627', "Leonardo26PE", '58.2000' , '599');
+
+    
+
 /*Filtros*/
 SELECT video.title, video.publishedAt, video_statistics.viewCount, channell.channelTitle, channel_statistics.subscriberCount, channel_statistics.videoCount, channel_statistics.viewCount
 FROM video_statistics JOIN video JOIN channell JOIN channel_statistics
