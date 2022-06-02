@@ -33,20 +33,20 @@ CREATE TABLE if not exists video (
 );
 
 CREATE TABLE if not exists video_statistics (
-    viewCount int(255), 
-    likeCount int(255),
-    dislikeCount int(255),  
-    favoriteCount int(255), 
-    commentCount int(255),
+    viewCount VARCHAR(255), 
+    likeCount VARCHAR(255),
+    dislikeCount VARCHAR(255),  
+    favoriteCount VARCHAR(255), 
+    commentCount VARCHAR(255),
     videoId VARCHAR(30) NOT NULL,
     FOREIGN KEY(videoId) references video(videoId)
 );
 
 CREATE TABLE if not exists channel_statistics (
-    viewCount int(255),
+    viewCount VARCHAR(255),
     channellid VARCHAR(30) NOT NULL,
-    subscriberCount int(255),
-    videoCount int(255),
+    subscriberCount VARCHAR(255),
+    videoCount VARCHAR(255),
     FOREIGN KEY(channellid) references channell(channellid)
 );
 
@@ -63,16 +63,6 @@ VALUES ('UCe1XGNDeEwAx5xaLGcNPEbQ', 'TV Jornal SBT', 'youtube#channel', ' ', 'ht
 ('UCP391YRAjSOdM_bwievgaZA', 'Jovem Pan News', 'youtube#channel', ' ', 'https://www.youtube.com/c/jovempannews', '2011-12-01', 
 'A maior rede de rádio do Brasil está também no Youtube com a presença de Thiago Uberreich, Rodrigo Constantino, Augusto Nunes e todo o time de comentaristas Jovem Pan.');
 
-INSERT INTO video (videoId, channellid, link, kind, title, publishedAt, description)
-VALUES ('4opM5Nt85yg', 'UCe1XGNDeEwAx5xaLGcNPEbQ', 'https://www.youtube.com/watch?v=4opM5Nt85yg', 'youtube#video', 
-'TV Jornal estreia novo estúdio e traz novidades na programação', '2021-09-13', 
-'A TV Jornal estreou nesta segunda-feira (13), o novo estúdio de Jornalismo da emissora trazendo novidades na programação.'),
-('gTHSgcV4cPs', 'UCe1XGNDeEwAx5xaLGcNPEbQ', 'https://www.youtube.com/watch?v=gTHSgcV4cPs', 'youtube#video', 
-'#AOVIVO | Pré-jogo entre Sport x Fortaleza pelo primeiro jogo da final da Copa do Nordeste 2022', '2022-04-01', 
-'Acompanhe todos os detalhes do pré-jogo entre Sport x Fortaleza, pelo primeiro jogo da final da Copa do Nordeste 2022, com ...'),
-('TpphwOkx15M', 'UCe1XGNDeEwAx5xaLGcNPEbQ', 'https://www.youtube.com/watch?v=TpphwOkx15M', 'youtube#video', 
-'#AOVIVO | Pré-jogo entre Sport x CRB pela Copa do Nordeste 2022', '2022-03-27', 
-'Acompanhe todos os detalhes do pré-jogo entre Sport x CRB, pela semifinal da Copa do Nordeste 2022, com Aroldo Costa.');
 
 INSERT INTO video (videoId, channellid, link, kind, title, publishedAt, description)
 VALUES ('-mpFDHfb9pY', 'UCQD_Fq8NZXbHz9LI8Fa1Q9A', 'https://www.youtube.com/watch?v=-mpFDHfb9pY', 'youtube#video', 'Transmissão ao vivo de TV Jornal Interior', '2021-04-08', ' '),	 
@@ -96,8 +86,8 @@ VALUES  ('4.586', '187', null , '13', "4opM5Nt85yg" ),
 		('20.114', '978', null , '20', "Ht5DL01JCLI" ),
 		('35.417', '1.3000', null , '41', "6qLnAZ76AzI" );
         
-        INSERT INTO channel_statistics (viewCount, channellid, subscriberCount, videoCount)
-        VALUES ('17.048.470', "UCe1XGNDeEwAx5xaLGcNPEbQ", '110.000' , '6.849'),
+INSERT INTO channel_statistics (viewCount, channellid, subscriberCount, videoCount)
+VALUES  ('17.048.470', "UCe1XGNDeEwAx5xaLGcNPEbQ", '110.000' , '6.849'),
 		('98.655.056', "UCOFMoDHG-vKXs-f5vcG7JaQ", '456.000' , '11.334'),
 		('2.001.756.622', "UCP391YRAjSOdM_bwievgaZA", '5.0400.00' , '80.958'),
 		('20.162.983', "UCQD_Fq8NZXbHz9LI8Fa1Q9A", '103.000' , '4.469');
