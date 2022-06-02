@@ -74,24 +74,23 @@ VALUES ('-mpFDHfb9pY', 'UCQD_Fq8NZXbHz9LI8Fa1Q9A', 'https://www.youtube.com/watc
 ('twPEPnitz6U', 'UCP391YRAjSOdM_bwievgaZA', 'https://www.youtube.com/watch?v=twPEPnitz6U', 'youtube#video', 'JORNAL DA MANHÃ - 28/05/2022', '2022-05-28', 'Baixe o app Panflix: https://www.panflix.com.br/ Baixe o AppNews Jovem Pan na Google Play store https://bit.ly/2KRm8OJ Baixe o ...');
 
 INSERT INTO video_statistics (viewCount, likeCount, dislikeCount, commentCount, videoId)
-VALUES  ('4.586', '187', null , '13', "4opM5Nt85yg" ),
-		('21.607', '422', null , '5', "gTHSgcV4cPs" ),
-		('24.512', '582', null , '8', "TpphwOkx15M" ),
-		('16.374', '362', null , '29', "-mpFDHfb9pY" ),
-		('30.114', '978', null , '20', "Ht5DL01JCLI" ),
-		('24.512', '582', null , '8', "TpphwOkx15M"),
-		('21.607', '422', null , '5', "twPEPnitz6U" ),
-		('306.522', '12.000', null , '48', "gTHSgcV4cPs" ),
-		('16.374', '362', null , '29', "-mpFDHfb9pY" ),
-		('20.114', '978', null , '20', "Ht5DL01JCLI" ),
-		('35.417', '1.3000', null , '41', "6qLnAZ76AzI" );
+VALUES  ('4.586', '187', ' ' , '13', "4opM5Nt85yg" ),
+		('21.607', '422', ' ' , '5', "gTHSgcV4cPs" ),
+		('24.512', '582', ' ' , '8', "TpphwOkx15M" ),
+		('16.374', '362', ' ' , '29', "-mpFDHfb9pY" ),
+		('30.114', '978', ' ' , '20', "Ht5DL01JCLI" ),
+		('24.512', '582', ' ' , '8', "TpphwOkx15M"),
+		('21.607', '422', ' ' , '5', "twPEPnitz6U" ),
+		('306.522', '12.000', ' ' , '48', "gTHSgcV4cPs" ),
+		('16.374', '362', ' ' , '29', "-mpFDHfb9pY" ),
+		('20.114', '978', ' ' , '20', "Ht5DL01JCLI" ),
+		('35.417', '1.3000', ' ' , '41', "6qLnAZ76AzI" );
         
 INSERT INTO channel_statistics (viewCount, channellid, subscriberCount, videoCount)
 VALUES  ('17.048.470', "UCe1XGNDeEwAx5xaLGcNPEbQ", '110.000' , '6.849'),
 		('98.655.056', "UCOFMoDHG-vKXs-f5vcG7JaQ", '456.000' , '11.334'),
 		('2.001.756.622', "UCP391YRAjSOdM_bwievgaZA", '5.0400.00' , '80.958'),
 		('20.162.983', "UCQD_Fq8NZXbHz9LI8Fa1Q9A", '103.000' , '4.469');
-
 
 /*Filtros*/
 SELECT video.title, video.publishedAt, video_statistics.viewCount, channell.channelTitle, channel_statistics.subscriberCount, channel_statistics.videoCount, channel_statistics.viewCount
